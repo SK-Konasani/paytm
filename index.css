@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+
+}
+.navbar{
+    margin-top: 3%;
+}
+.navbar a{
+    margin-left:3%;
+    vertical-align:middle;
+    text-decoration: none;
+    font-size:17px;
+    font-weight:bold;
+    color:black;
+}
+.btn{
+    background-color: aqua;
+    color:white;
+    font-size:17px;
+    font-weight: bold;
+    border:none;
+    border-radius: 30px;
+    padding: 0.8% 1%;
+}
+.btn:hover{
+    background-color: rgb(39, 115, 215);
+}
+.wallet{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1.5%;
+}
+.sec2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 6%;
+
+}
+.sec2one{
+    margin-left: 5%;
+    width:80%;
+}
+.img2{
+    margin-left: 10%;
+}
+.head2{
+    font-size: 60px;
+    margin-top: 2%;
+    margin-bottom:2% ;
+    color:rgb(230, 99, 28);
+}
+.para2{
+    font-size:25px ;
+    margin-top: 2%;
+    margin-bottom:2% ;
+
+}
+.appbtn{
+    background-color:black ;
+    color: whitesmoke;
+    border:none;
+    border-radius: 20px;
+    padding:1.5%;
+    font-size:16px;
+    font-weight:bold;
+
+}
+ .appbtn:hover{
+    background-color: whitesmoke;
+    color: black;
+} 
+.sec3{
+    margin-top: 30%;
+    background-color: aqua;
+    padding:3%;
+}
+.head3{
+    margin-bottom: 3%;
+    font-size: 35px;
+    color: red;
+}
+
+.inner3 a{
+    text-decoration:none;
+    
+}
+.inner3 {
+    display:flex;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: center;
+}
+.inner3 a img{
+    width: 30%;
+    
+}
+.inner3 a p{
+    width:25%;
+    line-height: 30px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+/* .inner3 a text{
+    text-align: center;
+    line-height: 30px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    width: 23%; 
+}*/
+
+.inner a p::after{
+    content: '>';
+}
+/* section 4 */
+.sec4{
+    display: flex;
+    padding: 10%;
+    background-color: aliceblue;
+    justify-content: space-around;
+
+}
+.sec4one{
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3%;
+
+}
+.sec4one h1{
+    font-size: 40px;
+    margin-top: 3%;
+    margin-bottom:5%;
+}
+.sec4one p{
+    font-size: 20px;
+    margin-bottom: 5%;
+
+}
+.hi{
+    margin-left: 5%;
+}
